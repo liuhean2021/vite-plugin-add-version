@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-add-version",
+  "version": "1.0.0",
+  "description": "vite构建过程中给js和css添加自定义版本号防止缓存",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhean2021/vite-plugin-add-version.git"
+  },
+  "keywords": [
+    "vite-plugin"
+  ],
+  "author": "liuhean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuhean2021/vite-plugin-add-version/issues"
+  },
+  "homepage": "https://github.com/liuhean2021/vite-plugin-add-version#readme"
+}
