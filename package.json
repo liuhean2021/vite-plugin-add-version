@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-add-version",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "vite构建过程中给js和css添加自定义版本号防止缓存",
   "main": "index.js",
   "scripts": {

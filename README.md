@@ -21,3 +21,18 @@ npm i vite-plugin-add-version -D
        ...
     });
 ```
+ 3. `vite build`成功后`dist/index.html`里的css和js就会看到追加了自定义的版本号
+```html
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  ...
+  <link rel=modulepreload href="app.css?v=1_0_0_1658715338398">
+  <script type=text/javascript defer src="bundle.js?v=1_0_0_1658715338398" charset=utf-8></script>
+</head>
+<body>
+ ...
+</body>
+</html>
+
+```
